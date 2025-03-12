@@ -5,8 +5,8 @@ namespace OpenClosedPrincipleExample
     public class Order
     {
         public double TotalAmount { get; set; }
-        private readonly IDiscontStrategy _discontStrategy;
-        public Order(IDiscontStrategy discontStrategy)
+        private readonly IDiscountStrategy _discontStrategy;
+        public Order(IDiscountStrategy discontStrategy)
         {
             _discontStrategy = discontStrategy;
         }

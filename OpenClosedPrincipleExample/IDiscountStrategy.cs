@@ -2,7 +2,7 @@
 
 namespace OpenClosedPrincipleExample
 {
-    public interface IDiscontStrategy
+    public interface IDiscountStrategy
     {
         double ApplyDiscount(double amount);
     }

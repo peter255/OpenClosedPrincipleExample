@@ -2,7 +2,7 @@
 
 namespace OpenClosedPrincipleExample
 {
-    public class NoDiscount : IDiscontStrategy
+    public class NoDiscount : IDiscountStrategy
     {
         public double ApplyDiscount(double amount) => amount;
     }
